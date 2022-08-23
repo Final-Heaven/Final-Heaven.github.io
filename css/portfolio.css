@@ -1,5 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*Body*/
 body{
     margin: 0%;
+    opacity: 1;
+    transition: 3s opacity;
+    letter-spacing: .2vw;
+    font-family: Avant Garde, Helvetica;
+    font-size: 1.5vw;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+body.fade-out {
+    opacity: .1;
 }
 
 h1{
@@ -18,6 +34,7 @@ h1:hover{
 
 .white-text{
     color: white;
+    padding-top: 10vh;
 }
 
 p{
