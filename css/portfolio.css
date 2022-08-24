@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    background-color: #1d1b1b;
 }
 
 /*Body section*/
@@ -151,7 +152,7 @@ footer {
 #Typing_Video {
     position: fixed;
     right: 0;
-    bottom: 30%;
+    bottom: 0;
     min-width: 100%;
     z-index: -1;
 }
@@ -356,7 +357,7 @@ footer {
     width: 100%;
     padding: .93vw;
     margin: .6vw 0 .6vw 0;
-    border: none;
+    border-color: black;
     background: Gainsboro;
     font-size: 1vw;
 }
@@ -374,7 +375,7 @@ button {
 
 button:hover, .form-container .btn:hover {
     color: white;
-    background-color: black;
+    background-color: #043b3f;
     transition-duration: 1s;
     -webkit-transition-duration: 1s;
     border-color: silver;
@@ -455,7 +456,7 @@ button:hover, .form-container .btn:hover {
 
 @media screen and (min-width: 2270px) {
     p {
-        font-size: 1.35;
+        font-size: 1.35vw;
     }
 }
 
